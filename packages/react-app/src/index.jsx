@@ -4,7 +4,9 @@ import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
 import App from "./App";
+import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
+import "./custom.scss";
 
 const themes = {
   dark: `${process.env.PUBLIC_URL}/dark-theme.css`,
