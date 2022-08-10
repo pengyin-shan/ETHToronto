@@ -28,20 +28,21 @@ function FaucetHint({ localProvider, targetNetwork, address }) {
     ethers.utils.formatEther(yourLocalBalance) <= 0
   ) {
     faucetHint = (
-      <div style={{ position: "absolute", right: 65, top: 65 }}>
-        <Button
-          type="primary"
-          onClick={() => {
-            faucetTx({
-              to: address,
-              value: ethers.utils.parseEther("0.01"),
-            });
-            setFaucetClicked(true);
-          }}
-        >
-          💰 Grab funds from the faucet ⛽️
-        </Button>
-      </div>
+      <div></div>
+      // <div style={{ position: "absolute", right: 65, top: 65 }}>
+      //   <Button
+      //     type="primary"
+      //     onClick={() => {
+      //       faucetTx({
+      //         to: address,
+      //         value: ethers.utils.parseEther("0.01"),
+      //       });
+      //       setFaucetClicked(true);
+      //     }}
+      //   >
+      //     💰 Grab funds from the faucet ⛽️
+      //   </Button>
+      // </div>
     );
   }
 

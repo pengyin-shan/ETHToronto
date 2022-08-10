@@ -68,7 +68,7 @@ export default function Faucet(props) {
 
   return (
     <span>
-      <Input
+      {/* <Input
         size="large"
         placeholder={placeholder ? placeholder : "local faucet"}
         prefix={blockie}
@@ -96,7 +96,7 @@ export default function Faucet(props) {
             />
           </Tooltip>
         }
-      />
+      /> */}
     </span>
   );
 }
